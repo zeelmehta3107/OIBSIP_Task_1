@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <center>
+        <h1>Zeel's Calculator</h1>
+        <small><b>Level2 - Task 1</b></small><br><br><br>
+        <div>
+            <table>
+                <tr>
+                    <td colspan="4" id="display"></td>
+                </tr>
+                <tr>
+                    <td id="dummy" colspan="4"></td>
+                </tr>
+                <tr>
+                    <td id="c" colspan="2" onclick="clr()">C</td>
+                    <td id="module" onclick="dis('%')">%</td>
+                    <td id="divide" onclick="dis('/')">/</td>
+                </tr>
+                <tr>
+                    <td id="7" onclick="dis(7)">7</td>
+                    <td id="8" onclick="dis(8)">8</td>
+                    <td id="9" onclick="dis(9)">9</td>
+                    <td id="multiply" onclick="dis('*')">*</td>
+                </tr>
+                <tr>
+                    <td id="4" onclick="dis(4)">4</td>
+                    <td id="5" onclick="dis(5)">5</td>
+                    <td id="6" onclick="dis(6)">6</td>
+                    <td id="minus" onclick="dis('-')">-</td>
+                </tr>
+                <tr>
+                    <td id="1" onclick="dis(1)">1</td>
+                    <td id="2" onclick="dis(2)">2</td>
+                    <td id="3" onclick="dis(3)">3</td>
+                    <td id="plus" onclick="dis('+')">+</td>
+                </tr>
+                <tr>
+                    <td id="00" onclick="dis(100)">00</td>
+                    <td id="0" onclick="dis(0)">0</td>
+                    <td colspan="2" id="evaluate" onclick="solve()">=</td>
+                </tr>
+            </table>
+        </div>
+    </center>
+</body>
+
+</html>

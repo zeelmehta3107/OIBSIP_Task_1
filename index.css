@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+table{
+    background-color: white;
+    border: 1px black;
+    border-style: solid;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 7px 2px black;
+}
+td {
+    background-color: rgb(196, 230, 235);
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 8px;
+    height: 30px;
+    padding: 4px 13px;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: 'Orbitron';
+    letter-spacing: 2px;
+}
+
+#display {
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px grey;
+    cursor: default;
+}
+
+#dummy{
+    background-color: transparent;
+    height: 10px;
+    border: 0px;
+}
+
